@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+**Lexicographica** is a web application designed to be your one-stop shop for all things language-related. Built with Figma for design, React for interactivity, and CSS for styling, it seamlessly integrates Google Studio's AI (generative chat) technology.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Design:**
 
-## Available Scripts
+The application features a clean and minimalist aesthetic.
+The screen is divided into two sections:
+Left side: A text input field where users can type their language-related questions.
+Right side: A chat history window that displays the conversation log. User questions appear on the left, and the AI's responses appear on the right.
+Two additional buttons are positioned strategically:
+"Surprise Me!": This button generates a random language-related question for the user to explore. It encourages users to discover new aspects of language and keeps the interaction dynamic.
+"Clear": This button allows users to erase the chat history and start fresh.
 
-In the project directory, you can run:
+**Functionality:**
 
-### `npm start`
+Users type their questions in the input field on the left.
+Upon hitting enter or clicking a dedicated "Ask" button, the question is sent to the Google Studio AI.
+The AI processes the question and generates a relevant and informative response that appears in the chat history on the right.
+The "Surprise Me!" button, when clicked, fetches a random language-related question from an internal database or API and displays it in the input field. This injects an element of fun and discovery into the user experience.
+The "Clear" button allows users to erase the chat history and start a new conversation with the AI. This ensures privacy and allows users to focus on specific inquiries.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Target Audience:**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Writers and editors seeking grammar, vocabulary, and style advice.
+Students and language learners looking for explanations and clarifications on various linguistic concepts.
+Anyone curious about the intricacies of language, etymology, or cultural nuances.
 
-### `npm test`
+**Benefits:**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Provides instant and accurate answers to a wide range of language-related questions.
+Encourages exploration and learning through the "Surprise Me!" button.
+Offers a clean and user-friendly interface for easy interaction.
+Maintains privacy with the option to clear the chat history.
+Overall, The Language Guru empowers users to become more confident and knowledgeable about language, making it a valuable tool for anyone with a curious mind or a professional need for linguistic expertise.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
