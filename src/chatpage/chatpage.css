@@ -1,0 +1,209 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lusitana:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    font-family: "Lusitana", serif;
+}
+  
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #DCD1B7;
+    color: #000000;
+    display:flex;
+    justify-content: center;
+}
+
+p {
+    font-weight: 200;
+    font-size: 14px;
+}
+
+
+
+.app {
+    width: 80vw;
+    margin: 10vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: row; 
+    
+}
+
+.Header {
+    position: absolute;
+    top: 0px;
+    left: 35px;
+    font-size: 70px;
+    padding-bottom: 50px;
+    margin: 50px;
+
+}
+
+
+.search-result {
+    width: 560px;
+    height: 120%;;
+    border: solid 0.5px #cacaca;
+    box-sizing: border-box;
+    border-radius: 25px;
+    box-shadow: rgba(0,0,82,0.15) 0 2px 4px;
+    display:flex;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: #F6EDE3;
+    overflow: scroll;
+    margin-left: 50px;
+    
+}
+
+
+
+.input-container {
+    width: 560px;
+    height: 120%;
+    border: solid 0.5px #cacaca;
+    box-sizing: border-box;
+    border-radius: 25px;
+    box-shadow: rgba(0,0,82,0.15) 0 2px 4px;
+    display:flex;
+    flex-direction: column;
+    overflow: scroll;
+    background-color: #F6EDE3;
+    margin-left: 79;
+    margin-right: 71;
+    margin-right: 50px;
+    
+   
+    
+
+}
+
+
+
+.input-container .input {
+    
+    border: none;
+    outline: none;
+    width: 90%;
+    padding: 13px 14px;
+    font-size: 50px;
+    font-weight: 200;
+    box-sizing: border-box;
+    background-color: #F6EDE3;
+    overflow: scroll;
+    position: relative;
+    resize: none;
+    height: 10000px;   
+
+}
+
+
+
+.input-container input::placeholder {
+    color: #cacaca;
+    font-weight: 200;
+    background-color: #F6EDE3;
+    
+    
+}
+
+.input-container button {
+    min-width: 10%;
+    border: none;
+    border-left: 1 px solid #cacaca;
+    background-color: #ffff;
+    color: #777;
+    font-weight: bold;
+    cursor: pointer;
+    
+   
+
+}
+
+.input-container button:active {
+    background-color: #cacaca;
+}
+
+.input-container .buttons-container {
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+.input-container .ask-me {
+    background-color: #DCD1B7;
+    color: #000;
+    border-radius: 25px;
+    font-weight: 600;
+    padding: 4px 12px;
+    margin: 0 0 25px 25px;
+    border: none;
+    width: 235px;
+    height: 127px;
+    cursor: pointer;
+    float: left;
+    font-size: 25px;
+}
+
+.input-container .clear {
+    background-color: #DCD1B7;
+    color: #000;
+    border-radius: 25px;
+    font-weight: 600;
+    padding: 4px 12px;
+    margin: 0 0 25px 25px;
+    border: none;
+    width: 235px;
+    height: 127px;
+    cursor: pointer;
+    float: left;
+    font-size: 25px;
+}
+
+.input-container .surprise {
+    background-color: #DCD1B7;
+    color: #000;
+    border-radius: 25px;
+    font-weight: 600;
+    padding: 4px 12px;
+    margin: 0 25px 25px 25px;
+    border: none;
+    width: 235px;
+    height: 127px;
+    cursor: pointer;
+    float: left;
+    font-size: 25px;
+
+    
+} 
+
+
+.answer {
+   
+    box-sizing: border-box;
+    border-radius: 6px;
+    box-shadow: rgba(0,0,82,0.15) 0 2px 4px;
+    display:flex;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: #F6EDE3;
+    font-size: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+
+}
+
+
+
+
+
+
+
+
