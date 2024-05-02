@@ -8,6 +8,8 @@ const ChatPage = () => {
     const [error, setError] = useState("")
     const [chatHistory, setChatHistory] = useState([])
 
+   
+
     const surpriseOption =[
       "What is the etymology of the word 'arrow'?",
       "What is the worlds oldest language?",
@@ -30,7 +32,7 @@ const ChatPage = () => {
             method: 'POST',
             body: JSON.stringify({
               history: chatHistory,
-              message: value
+              message: value + " Please make sure that you only answer this input as it relates to the study of language, if it does relate to language just answer the input normally, otherwise tell the user to enter a language related question (nicely)"
             }),
             headers:{
               'Content-Type': 'application/json'
@@ -73,6 +75,7 @@ const ChatPage = () => {
               placeholder = "Enter your request for any language question here..."
               onChange = {(e) => setValue(e.target.value)} 
               />
+      
                 <div className='buttons-container'>
                 {!error && <button className='ask-me' onClick={getResponse}>Ask me</button>}
                 {error && <button className='clear' onClick={clear}>Clear</button>}
@@ -85,6 +88,7 @@ const ChatPage = () => {
               {chatHistory.map((chatItem, _index) => <div key={_index}>
                   <p className="answer">{chatItem.role}: {chatItem.parts[0].text}</p>
                 </div>)}
+               
               </div>
        </div>
      
