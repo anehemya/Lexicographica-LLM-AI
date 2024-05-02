@@ -78,7 +78,7 @@ const ChatPage = () => {
       
                 <div className='buttons-container'>
                 {!error && <button className='ask-me' onClick={getResponse}>Ask me</button>}
-                {error && <button className='clear' onClick={clear}>Clear</button>}
+                {/* {error && <button className='clear' onClick={clear}>Clear</button>} */}
               <button className="surprise" onClick={surprise} disabled={!chatHistory}>Surprise Me</button>
                 </div>
             </div>
